@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.PrimaryButton{
+  background-color: rgb(37, 150, 190);
+  padding:10px;
+  color: white;
+  margin: 1rem 0rem;
+  width:100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* body{
+  background-color: #f15a25;
+} */
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+p,span,li{
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.mainImage{
+  width:300px;
+  height: 300px;
+}
+
+.imageDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPage{
+  margin:auto;
+  padding: 1rem;
+  width:350px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 7px;
+}
+
+.inputType{ 
+  font-size: 12px;
+  width:200px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  margin: 0.5rem 0rem;
+  border: none;
+}
+
+.secondaryButton{
+  width:300px;
+  padding: 10px;
+  background-color: #f15a25;
+  border: 3px solid white;
+  color:white;
+  border-radius: 8px;
+  margin:0.5rem 0rem;
+  cursor: pointer;
+}
+
+.nameField{
+  font-size: 12px;
+  width:300px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  margin: 0.5rem 0rem;
+  border: none;
+}
+
+.login{
+  width:100%;
+  height: 100vh;
+  background-color: #f15a25;
+}
+
+
+.AllMovies{
+  display: flex;
+  overflow-x: auto;
+  overflow-y: none;
+  justify-content: flex-start; 
+  white-space: nowrap;
+  max-width: 100%;
+  height: auto;
+}
+.singleMovie{
+  cursor: pointer;
+  margin: 0.5rem;
+  width:120px;
+  height: 150px;
+}
+.singleMovie img{
+  width:100px;
+  height:100px;
+  border-radius: 10px;
+}
+.singleMovie h1{
+  flex-wrap: wrap;
+  width:100px;
+  margin:0rem 0.5rem;
+}
+.title{
+  padding: 10px 0px;
+  margin-left: 1rem;
+}
+.movieDetails{
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.movieDetails img{
+  margin-bottom: 1rem;
+}
+.movieDetails h2{
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+.movieDetails button{
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f15a25;
+  color:white;
+  width:150px;
+  border-radius: 10px;
+}
+
+.total{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.authorsImage{
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.movieContent{
+  line-height: 1.2rem;
+  width:300px;
+  margin-left: 2rem;
+}
+.movieContent1{
+  width:300px;
+  padding:10px;
+}
+.styleIcon{
+  margin:1rem 0rem;
+  background-color:blue;
+  height:2rem;
+  width:2rem;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor: pointer;
+}
+.styleIcon:hover{
+  background-color: #f15a25;
+}
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.forLaptop{
+  display: none;
+}
+.allSimilarMovies{
+  display: flex;
+  overflow-x: auto;
+  max-width: 400px;
+}
+.similarMovie{
+  margin:0.5rem;
+  width:200px;
+  height:200px;
+}
+.similarMovie img{
+  cursor: pointer;
+  width:150px;
+  height:150px;
+}
+
+.alertBox{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.alertBox form{
+  padding:1rem;
+  border-radius: 10px;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#textareaInAlert{
+  border-radius: 10px;
+  margin:1rem;
+  padding:10px;
+  border: 1.5px solid gray;
+  outline:none;
+}
+
+#inputInAlert{
+  width:20px;
+  margin: 0rem 0.5rem;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-bottom:2px solid gray;
+}
+
+.singleReview{
+  display: flex;
+  justify-content: center;
+  width:330px;
+  height:auto;
+  padding:10px;
+  border: 2px solid gray;
+  border-radius: 7px;
+  margin:1rem;
+}
+.allReviews{
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.editIcon{
+  height:2rem;
+  margin:1rem;
+  cursor: pointer;
+}
+.editIcon :hover{
+  background-color: #f15a25;
+}
+
+.reviewdiv{
+  display:'flex';
+  flex-direction: row;
+  margin:'1rem 0rem';
+  width:'350px';
+  justify-content:'space-between';
+  align-items:'center';
+}
+.divReview2{
+  display:'flex';
+  justify-content:'center';
+  align-items:'center';
+  margin-left:'2rem';
+  cursor:'pointer';
+}
+.searchDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ReviewsSeparate{
+  display:'flex';
+  flex-direction: row;
+}
+.ReviewSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* for tabs */
+@media (min-width:550px) and (max-width:900px){
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto';
+    font-size: 14px;
+  }
+  p,span,li{
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+  .movieDetails img{
+    margin-bottom: 1rem;
+    height:350px;
+    width:350px;
+  }
+  .allSimilarMovies{
+    max-width: 450px;
+  }
+  .similarMovie{
+    margin:0.5rem;
+    width:200px;
+    height:200px;
+  }
+  .similarMovie img{
+    width:150px;
+    height:150px;
+  
+  }
+  .allReviews{
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+
+
+/* for laptops */
+@media (min-width:900px){
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto';
+    font-size: 16px;
+  }
+  p,span,li{
+    font-family: 'Roboto';
+    font-size: 14px;
+  }
+  .login{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageDiv{
+    width:50%;
+  }
+  .imageDiv img{
+    width: 400px;
+    height: 400px;
+  }
+  .loginPage{
+    width:480px;
+  }
+  .textAreas{
+    display: flex;
+  }
+  .textAreas input[type="text"]{
+    margin-right: 2rem;
+  }
+  .singleMovie img{
+    width:150px;
+    height:150px;
+    border-radius: 10px;
+  }
+  .singleMovie{
+    margin: 0.5rem;
+    width:200px;
+    height: 200px;
+  }
+  .movieDetails img{
+    margin-bottom: 1rem;
+    height:400px;
+    width:400px;
+  }
+  .total{
+    flex-direction: row;
+  }
+.movieContent{
+  width:400px;
+}
+.forMobile{
+    display: none;
+  }
+  header{
+    justify-content: space-between;
+    margin:0rem 1rem;
+  }
+.forLaptop{
+    display: block;
+    width:10%;
+  }
+  .down{
+    display: flex;
+  }
+  .moviesSection{
+    overflow-x: auto;
+    width:90%;
+  }
+  .allSimilarMovies{
+    max-width: 500px;
+  }
+  .similarMovie{
+    margin:0.5rem;
+    width:200px;
+    height:200px;
+  }
+  .similarMovie img{
+    width:150px;
+    height:150px;
+  }
+  .allReviews{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .reviewdiv{
+    display:flex;
+    flex-direction: row;
+    margin:1rem 0rem;
+    width:350px;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .divReview2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:2rem;
+    cursor:pointer;
+  }
+  .searchDiv{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .ReviewSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem;
+  }
+}
